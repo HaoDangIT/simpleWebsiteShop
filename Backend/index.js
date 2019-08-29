@@ -1,0 +1,5 @@
+const express = require('express');
+const app = express();
+port = 3000;
+app.get('/', function (request, response) { response.send('Hello, World!'); });
+app.listen(port, function () { console.log('Server listening on http://localhost:' + port); });
